@@ -1,0 +1,6 @@
+.ExampleHeader {
+  background: #747474;
+  background: linear-gradient(to right, #747474 0%, #c1c1c1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
