@@ -108,7 +108,7 @@ export function Sidebar() {
                 <ShoppingBagIcon className="h-5 w-5" />
               </ListItemPrefix>
               <Typography color="blue-gray" className="mr-auto font-normal">
-                E-Commerce
+                Card
               </Typography>
             </AccordionHeader>
           </ListItem>
