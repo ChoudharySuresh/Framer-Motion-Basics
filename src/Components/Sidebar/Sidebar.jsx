@@ -11,12 +11,12 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import {
-  ShoppingBagIcon,
   UserCircleIcon,
   Cog6ToothIcon,
   InboxIcon,
   PowerIcon,
   FolderIcon,
+  Square2StackIcon,
 } from "@heroicons/react/24/solid";
 import { ChevronRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
@@ -105,21 +105,23 @@ export function Sidebar() {
               className="border-b-0 p-3"
             >
               <ListItemPrefix>
-                <ShoppingBagIcon className="h-5 w-5" />
+                <Square2StackIcon className="h-5 w-5" />
               </ListItemPrefix>
               <Typography color="blue-gray" className="mr-auto font-normal">
-                Card
+                Card Animation
               </Typography>
             </AccordionHeader>
           </ListItem>
           <AccordionBody className="py-1">
             <List className="p-0">
-              <ListItem>
-                <ListItemPrefix>
-                  <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
-                </ListItemPrefix>
-                Orders
-              </ListItem>
+              <Link to="/Example/cardanimation1">
+                <ListItem>
+                  <ListItemPrefix>
+                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                  </ListItemPrefix>
+                  Card Animation 1
+                </ListItem>
+              </Link>
               <ListItem>
                 <ListItemPrefix>
                   <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
