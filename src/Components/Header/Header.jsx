@@ -14,12 +14,17 @@ const NavLinks = [
     url: "/",
   },
   {
-    id: 1,
+    id: 2,
+    title: "Learning Resources",
+    url: "/learning-resources",
+  },
+  {
+    id: 3,
     title: "Examples",
     url: "/Example",
   },
   {
-    id: 1,
+    id: 4,
     title: "Contact Us",
     url: "/Contact Us",
   },

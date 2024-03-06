@@ -8,6 +8,7 @@ import Example from "./Pages/Example.jsx";
 import StaggeredText from "./Components/StaggeredText/StaggeredText.jsx";
 import Random from "./Pages/Random.jsx";
 import CardAnimation1 from "./Pages/CardAnimations/CardAnimation1.jsx";
+import LearningResourcePage from "./Pages/LearningResources/LearningResourcePage.jsx";
 
 const Structure = () => {
   return (
@@ -44,6 +45,10 @@ const appRouter = createBrowserRouter([
             element: <CardAnimation1 />,
           },
         ],
+      },
+      {
+        path: "/learning-resources",
+        element: <LearningResourcePage />,
       },
     ],
   },
