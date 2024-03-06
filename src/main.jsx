@@ -5,10 +5,10 @@ import Header from "./Components/Header/Header.jsx";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Body from "./Pages/Body.jsx";
 import Example from "./Pages/Example.jsx";
-import StaggeredText from "./Components/StaggeredText/StaggeredText.jsx";
-import Random from "./Pages/Random.jsx";
+import StaggeredText from "./Components/Examples/StaggeredText/StaggeredText.jsx";
 import CardAnimation1 from "./Pages/CardAnimations/CardAnimation1.jsx";
 import LearningResourcePage from "./Pages/LearningResources/LearningResourcePage.jsx";
+import ElegantTextReveal from "./Components/Examples/ElegantTextReveal/ElegantTextReveal.jsx";
 
 const Structure = () => {
   return (
@@ -37,8 +37,8 @@ const appRouter = createBrowserRouter([
             element: <StaggeredText />,
           },
           {
-            path: "/Example/random",
-            element: <Random />,
+            path: "/Example/elegant_text_reveal",
+            element: <ElegantTextReveal />,
           },
           {
             path: "/Example/cardanimation1",

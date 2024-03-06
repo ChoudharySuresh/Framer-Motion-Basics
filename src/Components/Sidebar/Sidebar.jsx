@@ -71,12 +71,12 @@ export function Sidebar() {
                   Staggered Text Animation 1
                 </ListItem>
               </Link>
-              <Link to="/Example/random">
+              <Link to="/Example/elegant_text_reveal">
                 <ListItem>
                   <ListItemPrefix>
                     <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
                   </ListItemPrefix>
-                  Staggered Text Animation 2
+                  Elegant Text Reveal
                 </ListItem>
               </Link>
               <ListItem>
